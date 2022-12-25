@@ -1,0 +1,583 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Addresses">
+      <UniqueIdentifier>{a4f2f0cd-1af7-4ca6-82b9-25547a9fb223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{961ebe2f-6978-48d8-89b3-c3bf6098c7b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{fe3d3702-a6b2-44fb-bc85-a4ff4d370909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\GameObjects">
+      <UniqueIdentifier>{c7e13b2c-ca34-4f39-b3bb-e43541a6d814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\GameObjects\MissileClient">
+      <UniqueIdentifier>{f27e6eae-813b-4984-baf4-3728a0ee3293}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\GameObjects\GameObject">
+      <UniqueIdentifier>{380048e9-0483-4490-85d2-4b7602c805a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Buffs">
+      <UniqueIdentifier>{4efef95d-85ad-4ff1-9d0c-e2ebb9b715f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Buffs\BuffManager">
+      <UniqueIdentifier>{3b2049e9-b0de-4c82-875c-97fb518a0865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Navigation">
+      <UniqueIdentifier>{99bdeab3-2f5c-41cc-9e78-35735cd182f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Navigation\NavGrid">
+      <UniqueIdentifier>{61518b9c-3012-42b8-a46e-2cf07540da9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Navigation\NavigationPath">
+      <UniqueIdentifier>{6e0e477b-3b6f-46b3-b0ac-9b76abc224f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Navigation\PathControllerCommon">
+      <UniqueIdentifier>{93aa8857-6a21-486b-bbec-920a99af8604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Spells">
+      <UniqueIdentifier>{c9ed882d-921e-4278-9213-e85f9ba9ce90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Spells\ProcessedSpell">
+      <UniqueIdentifier>{4eea8b39-14f4-488f-8df7-b13828b65a26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Spells\ActiveSpell">
+      <UniqueIdentifier>{858e63c0-603a-4e94-ba9c-82297813a64c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Spells\Spellbook">
+      <UniqueIdentifier>{e5060b4b-9f0a-47e3-83ed-8713f4a6d031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Spells\SpellInfo">
+      <UniqueIdentifier>{c9dc20d2-86ba-4c05-aeca-41a1b78ad071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Spells\SpellData">
+      <UniqueIdentifier>{8359b29e-4a7c-4702-a401-d26107a32583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Spells\SpellSlot">
+      <UniqueIdentifier>{b7937439-5f11-4b37-bed4-6961f5df9f0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\GameEngine">
+      <UniqueIdentifier>{902859a0-2b21-411b-afb4-6d3ec59b1c94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Hud">
+      <UniqueIdentifier>{3372bb36-3bc1-4561-902f-34d0e51e0291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\GameEngine\GameTime">
+      <UniqueIdentifier>{101eafd5-8b23-4fee-91a9-1be08d2ad9f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\GameEngine\ObjectManager">
+      <UniqueIdentifier>{3ce7857d-0c0d-414f-80a3-a3417dbb4f6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\GameEngine\ManagerList">
+      <UniqueIdentifier>{dfc45dbb-c2ed-47a9-953b-0932961830af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Rendering">
+      <UniqueIdentifier>{6541372b-1216-4db9-bfa2-48a807513e17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Rendering\r3dRenderer">
+      <UniqueIdentifier>{26ba0bd8-c949-4b7b-a12e-8491b54f316d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Rendering\RenderPipelineLOL">
+      <UniqueIdentifier>{7a2f6194-b0f0-4808-8df1-f6ce473b6226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Rendering\MouseOverEffectData">
+      <UniqueIdentifier>{60ed7865-d6a2-47e6-8f08-e17081ef0a20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Hud\Hud">
+      <UniqueIdentifier>{79323e09-14cc-4881-be1a-a23f97b0aa2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Hud\Cursor">
+      <UniqueIdentifier>{aac9f006-8fcf-4e11-85c4-193deff3e319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Hud\Chat">
+      <UniqueIdentifier>{a350b3eb-97c1-4ef1-97d3-2edbd4bb92e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Items">
+      <UniqueIdentifier>{518ba3e7-4ad8-4d61-b224-09f464ee1bca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Items\ItemSlot">
+      <UniqueIdentifier>{593cfb3c-485e-4650-930d-51ecfd0b7ef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Items\ItemInfo">
+      <UniqueIdentifier>{18045786-5b33-482f-926d-ddcc3b9f907d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Items\ItemData">
+      <UniqueIdentifier>{1e832130-8244-487e-bf14-3c96862d1660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Buffs\BuffEntry">
+      <UniqueIdentifier>{d9507065-1ce7-4cc0-975e-719e2a264bba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Context">
+      <UniqueIdentifier>{0496b029-c739-463c-8b32-1194d9c85dcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Impl">
+      <UniqueIdentifier>{f5992a2c-4132-4db5-9c2c-09d51c00d751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Impl\Logger">
+      <UniqueIdentifier>{e5a9276b-79f6-4d15-a54c-8cf7d059e504}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Impl\Common">
+      <UniqueIdentifier>{1d19d84b-3219-4fc7-9f63-2c5728dd1763}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Impl\Vector">
+      <UniqueIdentifier>{96d6d3e7-65b5-4dd3-9428-a7e11f6fdcac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Impl\Hooks">
+      <UniqueIdentifier>{335040b3-af91-4c4b-ad53-c9329750b3c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Impl\ImGui">
+      <UniqueIdentifier>{b1453abb-88ae-4bf9-88e6-be242368225a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Impl\ImGui\CodeEditor">
+      <UniqueIdentifier>{901eeb10-3b6a-48da-96cb-41b3ff824c51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Impl\ImGui\Impl">
+      <UniqueIdentifier>{74a531a2-3689-4762-97a8-45e0aaec66f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Impl\ImGui\Console">
+      <UniqueIdentifier>{98cba4b7-82cd-4b41-82b1-0dac5a95380e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Impl\ImGui\Fontawesome">
+      <UniqueIdentifier>{5cc3dd19-3b50-453c-8bcd-3a9e5116a7e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Impl\ImGui\Notifications">
+      <UniqueIdentifier>{f8d96e0d-cb8d-4102-be2b-8e2dc1f0f30b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Impl\Base">
+      <UniqueIdentifier>{df625194-4aef-4a66-86dc-44e078518199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Impl\EventHandler">
+      <UniqueIdentifier>{a8722c38-0640-4d36-ae9d-ceedd71a9377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Impl\DirectX">
+      <UniqueIdentifier>{e4f98d13-81ff-468a-9409-630404a511a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Impl\DrawManager">
+      <UniqueIdentifier>{76fb8d1a-9ac0-4d29-93dc-806ea49ffa63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Impl\Menu">
+      <UniqueIdentifier>{144de2da-3b70-4f9f-a05c-f4127b51e36c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{8c93d517-afa6-4ada-a2d2-077964132a1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Menu">
+      <UniqueIdentifier>{b7322cba-2da3-4d91-a874-a94d9119a6ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Core">
+      <UniqueIdentifier>{6392694d-e90e-492e-95b5-a5bdc1f109ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Impl\Globals">
+      <UniqueIdentifier>{21517992-b347-4a5e-94c5-e911378501cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\GameEngine\NetClient">
+      <UniqueIdentifier>{185763b6-870d-45a4-9a51-7bd920b66853}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Impl\Hooks\syscall">
+      <UniqueIdentifier>{d75770a5-a532-4ba7-92cd-f8ff9d48c192}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Impl\Hooks\HeavensGate">
+      <UniqueIdentifier>{e13504c4-18b0-4e69-a2c7-acf185d5123a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Impl\Hooks\hexify">
+      <UniqueIdentifier>{b3a9422d-ca57-4fde-92b7-37119a861c5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Impl\Hooks\Decrypt">
+      <UniqueIdentifier>{a369aea4-6439-46ca-af8e-e2f5d36f45d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Impl\Hooks\VEH">
+      <UniqueIdentifier>{55614a8f-2cb8-4689-bac3-839d57d02612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Spells\TargetClient">
+      <UniqueIdentifier>{f63b0b09-dc94-4d72-b391-37bcd7cccf1e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Context.cpp">
+      <Filter>Core\Context</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>Impl\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>Impl\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_tables.cpp">
+      <Filter>Impl\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>Impl\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\impl\imgui_impl_dx9.cpp">
+      <Filter>Impl\ImGui\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\impl\imgui_impl_win32.cpp">
+      <Filter>Impl\ImGui\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\Console.cpp">
+      <Filter>Impl\ImGui\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\TextEditor.cpp">
+      <Filter>Impl\ImGui\CodeEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX.cpp">
+      <Filter>Impl\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Hook.cpp">
+      <Filter>Impl\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Impl\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="r3dRenderer.cpp">
+      <Filter>Framework\Rendering\r3dRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Impl\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="EventType.h">
+      <Filter>Impl\EventHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawManager.cpp">
+      <Filter>Impl\DrawManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Impl\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuElement.cpp">
+      <Filter>Impl\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Framework\GameObjects\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>Impl\Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTime.cpp">
+      <Filter>Framework\GameEngine\GameTime</Filter>
+    </ClCompile>
+    <ClCompile Include="BuffManager.cpp">
+      <Filter>Framework\Buffs\BuffManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BuffEntry.cpp">
+      <Filter>Framework\Buffs\BuffEntry</Filter>
+    </ClCompile>
+    <ClCompile Include="ManagerList.cpp">
+      <Filter>Framework\GameEngine\ManagerList</Filter>
+    </ClCompile>
+    <ClCompile Include="NetClient.cpp">
+      <Filter>Framework\GameEngine\NetClient</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Framework\GameEngine\ObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Impl\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="MissileClient.cpp">
+      <Filter>Framework\GameObjects\MissileClient</Filter>
+    </ClCompile>
+    <ClCompile Include="Chat.cpp">
+      <Filter>Framework\Hud\Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="Cursor.cpp">
+      <Filter>Framework\Hud\Cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="Hud.cpp">
+      <Filter>Framework\Hud\Hud</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemSlot.cpp">
+      <Filter>Framework\Items\ItemSlot</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemInfo.cpp">
+      <Filter>Framework\Items\ItemInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemData.cpp">
+      <Filter>Framework\Items\ItemData</Filter>
+    </ClCompile>
+    <ClCompile Include="PathControllerCommon.cpp">
+      <Filter>Framework\Navigation\PathControllerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="NavigationPath.cpp">
+      <Filter>Framework\Navigation\NavigationPath</Filter>
+    </ClCompile>
+    <ClCompile Include="NavGrid.cpp">
+      <Filter>Framework\Navigation\NavGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseOverEffectData.cpp">
+      <Filter>Framework\Rendering\MouseOverEffectData</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPipelineLOL.cpp">
+      <Filter>Framework\Rendering\RenderPipelineLOL</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellBook.cpp">
+      <Filter>Framework\Spells\Spellbook</Filter>
+    </ClCompile>
+    <ClCompile Include="ActiveSpell.cpp">
+      <Filter>Framework\Spells\ActiveSpell</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessedSpell.cpp">
+      <Filter>Framework\Spells\ProcessedSpell</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellSlot.cpp">
+      <Filter>Framework\Spells\SpellSlot</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellInfo.cpp">
+      <Filter>Framework\Spells\SpellInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellData.cpp">
+      <Filter>Framework\Spells\SpellData</Filter>
+    </ClCompile>
+    <ClCompile Include="syscall.cpp">
+      <Filter>Impl\Hooks\syscall</Filter>
+    </ClCompile>
+    <ClCompile Include="HooksCommons.cpp">
+      <Filter>Impl\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Decrypt.cpp">
+      <Filter>Impl\Hooks\Decrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="VEHHook.cpp">
+      <Filter>Impl\Hooks\VEH</Filter>
+    </ClCompile>
+    <ClCompile Include="PGHook.cpp">
+      <Filter>Impl\Hooks\VEH</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetClient.cpp">
+      <Filter>Framework\Spells\TargetClient</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Addresses.h">
+      <Filter>Addresses</Filter>
+    </ClInclude>
+    <ClInclude Include="Structures.h">
+      <Filter>Addresses</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Context.h">
+      <Filter>Core\Context</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imconfig.h">
+      <Filter>Impl\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui.h">
+      <Filter>Impl\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_internal.h">
+      <Filter>Impl\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_rectpack.h">
+      <Filter>Impl\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_textedit.h">
+      <Filter>Impl\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_truetype.h">
+      <Filter>Impl\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\impl\imgui_impl_dx9.h">
+      <Filter>Impl\ImGui\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\impl\imgui_impl_win32.h">
+      <Filter>Impl\ImGui\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\Console.h">
+      <Filter>Impl\ImGui\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_notify.h">
+      <Filter>Impl\ImGui\Notifications</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\Fontawesome5Icons.h">
+      <Filter>Impl\ImGui\Fontawesome</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\TextEditor.h">
+      <Filter>Impl\ImGui\CodeEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX.h">
+      <Filter>Impl\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook.h">
+      <Filter>Impl\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Impl\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="r3dRenderer.h">
+      <Filter>Framework\Rendering\r3dRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Impl\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="RawCommon.h">
+      <Filter>Impl\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="RiotCrypto.h">
+      <Filter>Impl\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Impl\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="fp_call.h">
+      <Filter>Impl\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler.h">
+      <Filter>Impl\EventHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawManager.h">
+      <Filter>Impl\DrawManager</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyNames.h">
+      <Filter>Impl\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Impl\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuElement.h">
+      <Filter>Impl\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Impl\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuPlugin.h">
+      <Filter>Plugins\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="CorePlugin.h">
+      <Filter>Plugins\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Framework\GameObjects\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Impl\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTime.h">
+      <Filter>Framework\GameEngine\GameTime</Filter>
+    </ClInclude>
+    <ClInclude Include="BuffType.h">
+      <Filter>Framework\Buffs\BuffEntry</Filter>
+    </ClInclude>
+    <ClInclude Include="BuffManager.h">
+      <Filter>Framework\Buffs\BuffManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BuffEntry.h">
+      <Filter>Framework\Buffs\BuffEntry</Filter>
+    </ClInclude>
+    <ClInclude Include="RiotString.h">
+      <Filter>Impl\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerList.h">
+      <Filter>Framework\GameEngine\ManagerList</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerTemplate.h">
+      <Filter>Framework\GameEngine\ManagerList</Filter>
+    </ClInclude>
+    <ClInclude Include="NetClient.h">
+      <Filter>Framework\GameEngine\NetClient</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Framework\GameEngine\ObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="PathControllerCommon.h">
+      <Filter>Framework\Navigation\PathControllerCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectEnums.h">
+      <Filter>Framework\GameObjects\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellEnums.h">
+      <Filter>Framework\Spells\Spellbook</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Impl\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemSlot.h">
+      <Filter>Framework\Items\ItemSlot</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellBook.h">
+      <Filter>Framework\Spells\Spellbook</Filter>
+    </ClInclude>
+    <ClInclude Include="MissileClient.h">
+      <Filter>Framework\GameObjects\MissileClient</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellInfo.h">
+      <Filter>Framework\Spells\SpellInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellSlot.h">
+      <Filter>Framework\Spells\SpellSlot</Filter>
+    </ClInclude>
+    <ClInclude Include="Chat.h">
+      <Filter>Framework\Hud\Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursor.h">
+      <Filter>Framework\Hud\Cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="Hud.h">
+      <Filter>Framework\Hud\Hud</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemInfo.h">
+      <Filter>Framework\Items\ItemInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemData.h">
+      <Filter>Framework\Items\ItemData</Filter>
+    </ClInclude>
+    <ClInclude Include="NavigationPath.h">
+      <Filter>Framework\Navigation\NavigationPath</Filter>
+    </ClInclude>
+    <ClInclude Include="NavGrid.h">
+      <Filter>Framework\Navigation\NavGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseOverEffectData.h">
+      <Filter>Framework\Rendering\MouseOverEffectData</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPipelineLOL.h">
+      <Filter>Framework\Rendering\RenderPipelineLOL</Filter>
+    </ClInclude>
+    <ClInclude Include="ActiveSpell.h">
+      <Filter>Framework\Spells\ActiveSpell</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessedSpell.h">
+      <Filter>Framework\Spells\ProcessedSpell</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellData.h">
+      <Filter>Framework\Spells\SpellData</Filter>
+    </ClInclude>
+    <ClInclude Include="syscall.h">
+      <Filter>Impl\Hooks\syscall</Filter>
+    </ClInclude>
+    <ClInclude Include="HeavensGate.h">
+      <Filter>Impl\Hooks\HeavensGate</Filter>
+    </ClInclude>
+    <ClInclude Include="hexify.h">
+      <Filter>Impl\Hooks\hexify</Filter>
+    </ClInclude>
+    <ClInclude Include="HooksCommons.h">
+      <Filter>Impl\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Decrypt.h">
+      <Filter>Impl\Hooks\Decrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="VEHHook.h">
+      <Filter>Impl\Hooks\VEH</Filter>
+    </ClInclude>
+    <ClInclude Include="PGHook.h">
+      <Filter>Impl\Hooks\VEH</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetClient.h">
+      <Filter>Framework\Spells\TargetClient</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
